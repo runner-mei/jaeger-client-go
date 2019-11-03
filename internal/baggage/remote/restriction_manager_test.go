@@ -28,8 +28,8 @@ import (
 	"github.com/uber-go/atomic"
 	"github.com/uber/jaeger-lib/metrics"
 	"github.com/uber/jaeger-lib/metrics/metricstest"
+	"go.uber.org/atomic"
 
-	"github.com/uber/jaeger-client-go"
 	"github.com/uber/jaeger-client-go/internal/baggage"
 	thrift "github.com/uber/jaeger-client-go/thrift-gen/baggage"
 )
